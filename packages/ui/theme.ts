@@ -26,6 +26,14 @@ export const colors = {
     500: "#CDC3B9",
     600: "#B0A59A",
   },
+  slate: {
+    100: "#EEF1F3",
+    200: "#E4E9EC",
+    300: "#D6DDE2",
+    400: "#BBC7CF",
+    500: "#92A4B0",
+    600: "#556F81",
+  },
 };
 
 export const components = {
