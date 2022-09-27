@@ -3,7 +3,7 @@ import { ChatIcon } from "@chakra-ui/icons";
 
 import type { ReactElement } from "react";
 
-import { Button, IconButton } from "ui";
+import { Button } from "ui";
 
 import BlockLogo from "../../assets/images/block-logo.svg";
 
@@ -14,10 +14,10 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <>
-      <Box display={"flex"} p="2" justifyContent={"space-between"}>
+      <Box display={"flex"} px="4" py="2" justifyContent={"space-between"} alignItems="center">
         <BlockLogo />
         <Box display={"flex"} gap="2">
-          <IconButton icon={<ChatIcon />}>Talk to a Planner</IconButton>
+          <Button leftIcon={<ChatIcon />}>Talk to a Planner</Button>
           <Button>Save and Close</Button>
         </Box>
       </Box>

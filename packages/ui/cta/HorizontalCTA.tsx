@@ -10,7 +10,7 @@ const defaultValues: BoxProps = {
   display: "flex",
   gridGap: "4",
   alignItems: "center",
-  bgColor: "slate.400",
+  bgColor: "slate.200",
 	borderRadius: "lg"
 };
 

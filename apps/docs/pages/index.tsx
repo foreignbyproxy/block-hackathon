@@ -1,17 +1,26 @@
-import { Container, Select, HorizatonalCTA, Button } from "ui";
 import { Box, Text } from "@chakra-ui/react";
+import { InfoOutlineIcon, ArrowForwardIcon } from "@chakra-ui/icons";
+import Image from "next/future/image";
 
-import { InfoOutlineIcon } from "@chakra-ui/icons";
+import NextLink from "next/link";
+
+import { Container, Select, HorizatonalCTA, Button, StackedCTA, LinkArrow } from "ui";
+
+import CTAImage from "../assets/images/cta-brush.png";
 
 export default function Docs() {
   function handleCTAClick() {
     alert('You click "Go!"');
   }
 
-  const CTA = <Button onClick={handleCTAClick} size="sm">Go</Button>;
+  const CTA = (
+    <Button onClick={handleCTAClick} size="sm" rightIcon={<ArrowForwardIcon />}>
+      Go
+    </Button>
+  );
 
   return (
-    <Box p="4">
+    <Box px="4">
       <Container borderTopRadius="lg" variant="border" bgColor="cardboard.400">
         <Text as="h1" m="0">
           My Renovation Planner
@@ -35,7 +44,15 @@ export default function Docs() {
             </Select>
           </Container>
         </Box>
-        <Container borderLeftWidth="1px" borderLeftStyle="solid" borderLeftColor="cardboard.600"></Container>
+        <Container borderLeftWidth="1px" borderLeftStyle="solid" borderLeftColor="cardboard.600">
+          <StackedCTA>
+            <Image src={CTAImage} alt="Learn more" />
+            <Text>Testing</Text>
+            <NextLink href="/learn-more" passHref>
+              <LinkArrow>Learn More</LinkArrow>
+            </NextLink>
+          </StackedCTA>
+        </Container>
       </Container>
     </Box>
   );
