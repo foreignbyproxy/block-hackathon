@@ -6,6 +6,7 @@ export default function Web() {
     <div>
       <h1>Web</h1>
 			<BlockButton size={"md"}>Web Button</BlockButton>
+			<BlockButton size={"lg"}>Web Button</BlockButton>
     </div>
   );
 }
