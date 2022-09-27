@@ -1,5 +1,3 @@
-import type { StyleFunctionProps } from "@chakra-ui/styled-system";
-
 export const colors = {
   orange: {
     100: "#FFEDE7",
@@ -94,6 +92,23 @@ export const components = {
         icon: {
           bg: "grey.300",
           color: "orange.600",
+        },
+      },
+    },
+  },
+  Link: {
+    variants: {
+      solid: {
+        borderRadius: "lg",
+        bg: "orange.400",
+        px: "4",
+        py: "2",
+        color: "black",
+        fontSize: "md",
+        p: "4",
+        _hover: {
+          bg: "black",
+          color: "white",
         },
       },
     },
