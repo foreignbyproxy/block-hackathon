@@ -1,4 +1,7 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+
+import { Button } from "@chakra-ui/react";
+
+export const BlockButton = ({ children }) => {
+  return <Button>{children}</Button>
 };
