@@ -1,10 +1,10 @@
-import { BlockButton } from "ui";
+import { Button } from "ui";
 
 export default function Docs() {
   return (
     <div>
       <h1>Docs</h1>
-			<BlockButton>Docs Button</BlockButton>
+			<Button>Docs Button</Button>
     </div>
   );
 }
