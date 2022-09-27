@@ -38,6 +38,14 @@ export const components = {
     // 1. We can update the base styles
     baseStyle: {
       fontWeight: "bold", // Normally, it is "semibold"
+      _hover: {
+        bgColor: "black",
+        color: "white",
+      },
+      _active: {
+        bgColor: "black",
+        color: "white",
+      },
     },
     // 2. We can add a new button size or extend existing
     sizes: {
