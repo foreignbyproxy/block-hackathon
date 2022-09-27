@@ -54,7 +54,7 @@ export default function Docs() {
               Choose a package that fits your renovation needs.
             </Text>
 						<HorizatonalCTA icon={<InfoOutlineIcon />} cta={CTA} bgColor="pink.200" mb="4">
-              <Text>@Patryk: maybe you can contribute by finishing this section from the "Chose How to Build" screen in Figma</Text>
+              <Text>@Patryk: maybe you can contribute by finishing this section from the &quot;Chose How to Build&quot; screen in Figma</Text>
             </HorizatonalCTA>
             <Container display="grid" gridTemplateColumns="1fr 1fr" gap="8" p="0">
               <Container variant="border" borderRadius="xl">
