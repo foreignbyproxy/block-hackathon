@@ -16,8 +16,16 @@ export const colors = {
     300: "#CBD5E0",
     400: "#A0AEC0",
     500: "#718096",
-    600: "#4A5568"
-  }
+    600: "#4A5568",
+  },
+  cardboard: {
+    100: "#F7F6F5",
+    200: "#EFEBE9",
+    300: "#E4E0DE",
+    400: "#DCD5CE",
+    500: "#CDC3B9",
+    600: "#B0A59A",
+  },
 };
 
 export const components = {
@@ -66,7 +74,7 @@ export const components = {
         },
         icon: {
           bg: "orange.400",
-        }
+        },
       },
       block_grey: {
         field: {
@@ -76,9 +84,9 @@ export const components = {
         icon: {
           bg: "grey.300",
           color: "orange.600",
-        }
-      }
-    }
+        },
+      },
+    },
   },
 };
 
