@@ -55,10 +55,13 @@ export const components = {
         bg: "orange.400",
         boxShadow: "0 0 2px 2px #efdfde",
       },
-      // 4. We can override existing variants
-      solid: (props: StyleFunctionProps) => ({
-        bg: props.colorMode === "dark" ? "orange.400" : "orange.400",
-      }),
+      ghost: {
+        color: "black",
+        _hover: {
+          color: "white",
+          bg: "black",
+        },
+      },
       // 5. We can add responsive variants
       sm: {
         bg: "orange.400",

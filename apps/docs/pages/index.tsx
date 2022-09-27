@@ -45,11 +45,17 @@ export default function Docs() {
           </Container>
         </Box>
         <Container borderLeftWidth="1px" borderLeftStyle="solid" borderLeftColor="cardboard.600">
-          <StackedCTA>
+          <StackedCTA mb="4">
             <Image src={CTAImage} alt="Learn more" />
-            <Text>Testing</Text>
+            <Text>This is the best tool to estimate your renovation</Text>
             <NextLink href="/learn-more" passHref>
               <LinkArrow>Learn More</LinkArrow>
+            </NextLink>
+          </StackedCTA>
+          <StackedCTA>
+            <Image src={CTAImage} alt="Learn more" />
+            <NextLink href="/learn-more" passHref>
+              <LinkArrow>Learn how to paint</LinkArrow>
             </NextLink>
           </StackedCTA>
         </Container>
