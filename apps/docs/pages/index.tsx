@@ -15,7 +15,7 @@ export default function Docs() {
       <Container display="grid" gridTemplateColumns="1fr 470px" variant="border" p="0">
         <Box>
           <Container borderBottomWidth="1px" borderBottomStyle="solid" borderBottomColor="cardboard.600">
-            <Text>You’ve made great decisions! Now it’s time to review your estimate.</Text>
+            <Text>You&apos;ve made great decisions! Now it&apos;s time to review your estimate.</Text>
           </Container>
           <Container>
             <Select size={"md"} placeholder="Select an option" variant="block_grey">
