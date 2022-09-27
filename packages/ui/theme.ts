@@ -1,5 +1,4 @@
 import type { StyleFunctionProps } from "@chakra-ui/styled-system";
-import { extendTheme } from "@chakra-ui/react";
 
 export const colors = {
   orange: {
@@ -98,7 +97,16 @@ export const components = {
   },
 };
 
-export const theme = extendTheme({
+const styles = {
+  global: {
+    img: {
+      width: "100%",
+    },
+  },
+};
+
+export const theme = {
   colors,
   components,
-});
+  styles,
+};
