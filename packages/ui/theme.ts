@@ -9,6 +9,14 @@ export const colors = {
     400: "#FF7C55",
     500: "#E56740",
     600: "#CC5936",
+  },
+  grey: {
+    100: "#EDF2F7",
+    200: "#E2E8F0",
+    300: "#CBD5E0",
+    400: "#A0AEC0",
+    500: "#718096",
+    600: "#4A5568"
   }
 };
 
@@ -48,6 +56,29 @@ export const components = {
       variant: "sm", // default is solid
       colorScheme: "orange", // default is gray
     },
+  },
+  Select: {
+    // For multipart components it seems better to use variants to style as opposed to a base
+    variants: {
+      block_orange: {
+        field: {
+          bg: "orange.400",
+        },
+        icon: {
+          bg: "orange.400",
+        }
+      },
+      block_grey: {
+        field: {
+          bg: "grey.300",
+          color: "orange.600",
+        },
+        icon: {
+          bg: "grey.300",
+          color: "orange.600",
+        }
+      }
+    }
   },
 };
 
