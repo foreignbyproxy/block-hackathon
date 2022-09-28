@@ -68,6 +68,10 @@ export const components = {
           bg: "black",
         },
       },
+      plain: {
+        color: "black",
+        bg: "white",
+      },
       // 5. We can add responsive variants
       sm: {
         bg: "orange.400",
@@ -121,6 +125,18 @@ export const components = {
       },
     },
   },
+  Text: {
+    variants: {
+      title: {
+        fontSize: "40px",
+        fontWeight: "bold",
+      },
+      label: {
+        fontSize: "md",
+        color: "grey.600"
+      }
+    }
+  }
 };
 
 const styles = {
