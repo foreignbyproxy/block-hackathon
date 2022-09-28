@@ -6,7 +6,7 @@ const defaultValues: BoxProps = {
   flexFlow: "column",
   gridGap: "4",
   alignItems: "stretch",
-  bgColor: "#E9E6DD",
+  bgColor: "orange.400",
   borderRadius: "lg",
 };
 
